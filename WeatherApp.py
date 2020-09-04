@@ -19,6 +19,14 @@ frame.place(relwidth = 0.8, relheight = 0.8, relx = 0.1, rely = 0.1)
 button = tk.Button(root, text="Test Button", bg='blue')
 button.pack()
 
+# this is a label
+label = tk.Label(frame, text="This is a label", bg='yellow')
+label.pack()
+
+# something you can type in (form)
+entry = tk.Entry(frame, text="This is an entry", bg='gray')
+entry.pack()
+
 # to run your application
 root.mainloop()
 
