@@ -13,23 +13,29 @@ canvas.pack()
 
 # to start organizing the widgets you put on screen
 frame = tk.Frame(root, bg='#e6e6e6')
+#relwidth and relheight work as percentage of a screen
 frame.place(relwidth = 0.8, relheight = 0.5, relx = 0.1, rely = 0.1)
 
 # button widget
-button = tk.Button(frame, text="Test Button", bg='blue')
-button.place(relx=0, rely=0, relwidth=0.25, relheight=0.25)
+button = tk.Button(frame, text="Get Weather", bg='blue')
+button.place(relx=0, rely=0, relwidth=0.2, relheight=0.1)
 
 # this is a label
-label = tk.Label(frame, text="This is a label", bg='yellow')
-label.place(relx=0.3, rely=0, relwidth=0.45, relheight=0.25)
+# label = tk.Label(frame, text="This is a label", bg='yellow')
+# label.place(relx=0.3, rely=0, relwidth=0.45, relheight=0.25)
 
 # # something you can type in (form)
-entry = tk.Entry(frame, text="This is an entry", bg='gray')
-entry.place(relx=0.8, rely=0, relwidth = 0, relheight = 0)
+# entry = tk.Entry(frame, text="This is an entry", bg='gray')
+# entry.place(relx=0.8, rely=0, relwidth = 0.8, relheight = 0.25)
 
 # to run your application
 root.mainloop()
 
 """
+you can use place(), grid(),pack()
+relwidth = how wide you want that item
+relheight = how tall you want that item
+relx = what percent of x axis you want to start at
+rely = what percentage of y you want to start at
 
 """
