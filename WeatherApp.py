@@ -33,8 +33,8 @@ root.mainloop()
 
 """
 you can use place(), grid(),pack()
-relwidth = how wide you want that item
-relheight = how tall you want that item
+relwidth = how wide you want that item (x axis (left to right))
+relheight = how tall you want that item (y axis (up and down))
 relx = what percent of x axis you want to start at
 rely = what percentage of y you want to start at
 
